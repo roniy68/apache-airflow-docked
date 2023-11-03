@@ -35,3 +35,14 @@ airflow-dockerized-repo/
   |- docker-compose.yml   # Docker Compose configuration
   |- .env                 # Environment variables
   |- README.md            # This documentation
+```
+
+### SETUP 
+
+```bash
+git clone https://github.com/your-username/airflow-dockerized-repo.git
+
+cd airflow-dockerized-repo
+docker compose up airflow-init
+docker compose up -d 
+```
